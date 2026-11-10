@@ -1,5 +1,11 @@
 # SchemaShift
 
+## Live demo
+
+![SchemaShift actual command-line output](docs/screenshots/schemashift-live-demo.svg)
+
+Live comparison of two temporary SQLite schemas. The tool inspects schema metadata; it does not read application rows or run DDL.
+
 SchemaShift compares two relational database schemas and reports structural drift without reading application rows or changing either database.
 
 ## What it compares
